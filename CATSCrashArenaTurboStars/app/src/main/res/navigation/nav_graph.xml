@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment2">
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="com.example.catscrasharenaturbostars.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment2_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment2_to_signFragment"
+            app:destination="@id/signFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.catscrasharenaturbostars.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment2"
+            app:destination="@id/loginFragment2" />
+        <action
+            android:id="@+id/action_registerFragment_to_garageFragment"
+            app:destination="@id/garageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signFragment"
+        android:name="com.example.catscrasharenaturbostars.SignFragment"
+        android:label="fragment_sign"
+        tools:layout="@layout/fragment_sign" >
+        <action
+            android:id="@+id/action_signFragment_to_loginFragment2"
+            app:destination="@id/loginFragment2" />
+        <action
+            android:id="@+id/action_signFragment_to_garageFragment"
+            app:destination="@id/garageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/garageFragment"
+        android:name="com.example.catscrasharenaturbostars.GarageFragment"
+        android:label="fragment_garage"
+        tools:layout="@layout/fragment_garage" >
+        <action
+            android:id="@+id/action_garageFragment_to_modVehicleFragment"
+            app:destination="@id/modVehicleFragment" />
+        <action
+            android:id="@+id/action_garageFragment_to_signFragment"
+            app:destination="@id/signFragment" />
+        <action
+            android:id="@+id/action_garageFragment_to_fightFragment"
+            app:destination="@id/fightFragment" />
+        <action
+            android:id="@+id/action_garageFragment_to_boxOpen"
+            app:destination="@id/boxOpen" />
+    </fragment>
+    <fragment
+        android:id="@+id/modVehicleFragment"
+        android:name="com.example.catscrasharenaturbostars.ModVehicleFragment"
+        android:label="fragment_mod_vehicle"
+        tools:layout="@layout/fragment_mod_vehicle" >
+        <action
+            android:id="@+id/action_modVehicleFragment_to_garageFragment"
+            app:destination="@id/garageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fightFragment"
+        android:name="com.example.catscrasharenaturbostars.FightFragment"
+        android:label="fragment_fight"
+        tools:layout="@layout/fragment_fight" >
+        <action
+            android:id="@+id/action_fightFragment_to_garageFragment"
+            app:destination="@id/garageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/boxOpen"
+        android:name="com.example.catscrasharenaturbostars.BoxOpen"
+        android:label="fragment_box_open"
+        tools:layout="@layout/fragment_box_open" >
+        <action
+            android:id="@+id/action_boxOpen_to_garageFragment"
+            app:destination="@id/garageFragment" />
+    </fragment>
+</navigation>

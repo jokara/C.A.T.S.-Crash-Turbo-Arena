@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">C.A.T.S. Crash Arena Turbo Stars</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nastavi_igru">Nastavi igru</string>
+    <string name="novi_korisnik">Novi korisnik</string>
+    <string name="ime">Ime</string>
+    <string name="prezime">Prezime</string>
+    <string name="korisnicko_ime">Korisnicko ime</string>
+    <string name="loznika">Loznika</string>
+    <string name="izaberi_korisnika">Izaberi korisnika</string>
+</resources>

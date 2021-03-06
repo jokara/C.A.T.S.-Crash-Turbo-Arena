@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoxOpen">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/boxOpen_constraint"
+        >
+
+        <ImageView
+            android:id="@+id/boxOpen_raketa"
+            android:layout_width="119dp"
+            android:layout_height="81dp"
+            android:src="@drawable/raketa_without"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.313"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.551">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/boxOpen_tocak_prednji"
+            android:layout_width="119dp"
+            android:layout_height="81dp"
+            android:src="@drawable/tocak_prednji_without"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.313"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.551">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/boxOpen_tocak_zadnji"
+            android:layout_width="119dp"
+            android:layout_height="81dp"
+            android:src="@drawable/tocak_zadnji_without"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.313"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.551">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/boxOpen_buzdovan"
+            android:layout_width="164dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="156dp"
+            android:src="@drawable/buzdovan_without"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.567">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/boxOpen_busilica"
+            android:layout_width="164dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="156dp"
+            android:src="@drawable/busilica_without"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.567">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/boxOpen_testera"
+            android:layout_width="164dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="156dp"
+            android:src="@drawable/testera_without"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.567">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/boxOpen_forklift"
+            android:layout_width="164dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="156dp"
+            android:src="@drawable/forklift_without"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.567">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/button_boxOpen"
+            android:layout_width="153dp"
+            android:layout_height="55dp"
+            android:background="@drawable/button_background1"
+            android:text="Prihvati nagrade"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.866" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="191dp"
+            android:layout_height="57dp"
+            android:text="Osvojili ste "
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.462"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.138" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
